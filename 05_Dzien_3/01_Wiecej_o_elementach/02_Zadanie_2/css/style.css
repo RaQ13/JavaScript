@@ -1,0 +1,18 @@
+.chrome, .firefox, .edge {
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.chrome {
+  background-image: url("../img/chrome.png");
+  width: 10px;
+}
+
+.firefox {
+  background-image: url("../img/edge.jpg");
+}
+
+.edge {
+  background-image: url("../img/firefox.jpg");
+}

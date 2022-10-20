@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript - Zadania</title>
+  <script src="https://fer-api.coderslab.pl/bootstrap/js/index.js"></script>
+  <script>new CL({
+    title: "JavaScript",
+    path: ["Zdarzenia", "Zadanie 7"]
+  });</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main class="container">
+  <h2>Położenie myszki</h2>
+
+  <div class="row mt-5">
+    <section class="col-3">
+      <h3>Globalnie</h3>
+      <div>X: <span id="globalX" class="counter badge badge-light">0px</span></div>
+      <div>Y: <span id="globalY" class="counter badge badge-light">0px</span></div>
+
+      <h3 class="mt-4">Lokalnie</h3>
+      <div>X: <span id="localX" class="counter badge badge-light">0px</span></div>
+      <div>Y: <span id="localY" class="counter badge badge-light">0px</span></div>
+    </section>
+
+    <section class="col-9">
+      <div class="box big" id="box"></div>
+    </section>
+  </div>
+</main>
+</body>
+
+<script src="js/app.js"></script>
+</html>

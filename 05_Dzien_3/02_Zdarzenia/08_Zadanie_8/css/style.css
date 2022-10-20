@@ -1,0 +1,6 @@
+.element {
+  padding: 50px;
+  border-radius: 5px;
+  border: var(--color-black) 2px dashed;
+  margin: 20px;
+}

@@ -1,0 +1,22 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
+.listContainer {
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
