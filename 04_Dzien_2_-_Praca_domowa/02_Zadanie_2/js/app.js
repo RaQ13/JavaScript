@@ -35,4 +35,16 @@ function getElementAlt(element) {
     });
     return array;
 }
-console.log(getElementAlt(images));
+// console.log(getElementAlt(images));
+
+const links = document.querySelectorAll('.my-link');
+
+function getElementHref(element) {
+    let array = [];
+    Array.from(element).forEach(function (el){
+        array.push(el.attributes.href.value);
+    });
+    console.log(array);
+}
+
+getElementHref(links);
