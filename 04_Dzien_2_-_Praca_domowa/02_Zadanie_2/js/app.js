@@ -8,4 +8,13 @@ function getDataInfo(element) {
     return array;
 }
 
-console.log(getDataInfo(id));
+// console.log(getDataInfo(id));
+
+const mainContainer = document.getElementById('main-container');
+
+function getElementClass(element) {
+    return Array.from(element.classList);
+}
+
+console.log(getElementClass(mainContainer));
+
