@@ -24,4 +24,15 @@ function getElementText(element) {
     return element.innerText;
 }
 
-console.log(getElementText(colorPink));
+// console.log(getElementText(colorPink));
+
+const images = document.querySelectorAll('.images');
+
+function getElementAlt(element) {
+    let array = [];
+    Array.from(element).forEach(function (el){
+       array.push(el.alt);
+    });
+    return array;
+}
+console.log(getElementAlt(images));
