@@ -16,5 +16,12 @@ function getElementClass(element) {
     return Array.from(element.classList);
 }
 
-console.log(getElementClass(mainContainer));
+// console.log(getElementClass(mainContainer));
 
+const colorPink = document.querySelector('.pink-color');
+
+function getElementText(element) {
+    return element.innerText;
+}
+
+console.log(getElementText(colorPink));
